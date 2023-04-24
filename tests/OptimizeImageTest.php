@@ -1,6 +1,6 @@
 <?php
 
-use LaravelImageOptimizer\Traits\OptimizeImage;
+use Avnsh1111\LaravelImageOptimizer\Traits\OptimizeImage;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\UploadedFile;
