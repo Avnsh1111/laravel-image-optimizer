@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelImageOptimizer\Traits;
+namespace Avnsh1111\LaravelImageOptimizer\Traits;
 
 use Spatie\ImageOptimizer\OptimizerChainFactory;
 use Intervention\Image\ImageManagerStatic as Image;
