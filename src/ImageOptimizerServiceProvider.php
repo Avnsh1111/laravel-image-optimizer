@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelImageOptimizer;
+namespace Avnsh1111\LaravelImageOptimizer;
 
 use Illuminate\Support\ServiceProvider;
 
