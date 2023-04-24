@@ -16,13 +16,13 @@
   },
   "autoload": {
     "psr-4": {
-      "LaravelImageOptimizer\\": "src/"
+      "Avnsh1111\\LaravelImageOptimizer\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "LaravelImageOptimizer\\ImageOptimizerServiceProvider"
+        "Avnsh1111\\LaravelImageOptimizer\\ImageOptimizerServiceProvider"
       ]
     }
   },
