@@ -1,0 +1,33 @@
+{
+  "name": "avnsh1111/laravel-image-optimizer",
+  "description": "A Laravel package that automatically optimizes images uploaded through the application.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Avinash Rathod",
+      "email": "er.avinashrathod@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2|^8.2",
+    "spatie/image-optimizer": "^1.6.4",
+    "illuminate/support": "^6.0|^7.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelImageOptimizer\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelImageOptimizer\\ImageOptimizerServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.1",
+    "orchestra/testbench": "^8.5"
+  }
+}
